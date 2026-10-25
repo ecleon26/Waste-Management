@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset / base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f7; /* Apple light gray */
+  color: #1d1d1f;
+  -webkit-font-smoothing: antialiased;
+}
